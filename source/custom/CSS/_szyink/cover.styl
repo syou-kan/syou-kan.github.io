@@ -1,0 +1,54 @@
+//修改链接的下划线样式
+.article a:not([class]):not([data-fancybox]),
+.content > a
+  position: relative
+  text-decoration: none
+  &:before
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px
+    height: 1px
+    width: 100%
+    background: #ff5722
+    transform: scale(0)
+    transition: all 0.5s
+  &:hover:before
+    transform: scale(1)
+
+//文章页不显示头图
+#l_main .article .headimg-div
+  display: none
+
+// 列表页的内容居中
+.post.post-v3.white-box
+  text-align: center
+  & a
+    font-weight: 600 !important
+
+// 内容居左且首行缩进
+.post.post-v3.white-box  p
+  text-align: left
+  text-indent: 2em
+
+  //卡片透明模式
+// 添加透明度
+#l_header
+  background-color: rgba(255,255,255,0.9)
+#l_main .post,
+#l_side .widget
+  background-color: rgba(255,255,255,0.9)
+  box-shadow: 0 4px 10px -4px #ebedf0
+
+  //背景亮度
+.parallax-mirror
+  filter: brightness(0.5)
+
+// 文章不透明
+#post.post
+  background-color: var(--color-card)
+
+/*文章页不显示头图
+即头图只在列表页显示，进入文章页时不显示。*/
+#l_main .article .headimg-div
+  display: none
