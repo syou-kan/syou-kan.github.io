@@ -5,8 +5,8 @@
   <meta name="Volantis" content="6.0.0-alpha.1">
   <meta charset="utf-8">
   <!-- SEO相关 -->
-  <meta name="robots" content="noindex,follow">
-  <link rel="canonical" href="https://syou-kan.github.io/tags/docker/"/>
+  
+  <link rel="canonical" href="https://syou-kan.github.io/undefined/volantis配置2.html"/>
   <!-- 渲染优化 -->
     <meta http-equiv='x-dns-prefetch-control' content='on' />
       <link rel='dns-prefetch' href='https://unpkg.com'>
@@ -44,17 +44,19 @@
 
   <!-- feed -->
   <!-- 页面元数据 -->
-  <title>标签：docker - Hexo</title>
+  <title>Hexo</title>
   <meta name="keywords" content="null">
   <meta desc name="description" content="blog - OnSimple - Hexo">
   
-<meta property="og:type" content="website">
+<meta property="og:type" content="article">
 <meta property="og:title" content="Hexo">
-<meta property="og:url" content="https://syou-kan.github.io/tags/docker/index.html">
+<meta property="og:url" content="https://syou-kan.github.io/undefined/Volantis%E9%85%8D%E7%BD%AE2.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="blog">
+<meta property="og:description" content="自定义资源注入建议在 hexo&#x2F;source&#x2F;_volantis&#x2F; 目录下注入自定义资源,下面是该目录下文件说明(如果没有可自行创建)    文件名 描述    first.styl 将样式以硬编码形式直接写入HTML   style.styl 延迟异步加载样式   dark.styl 暗黑模式地强制覆盖样式   darkVar.styl 暗黑模式的CSS变量   headBegin.ejs &amp;l">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png">
+<meta property="article:published_time" content="2023-12-21T11:50:05.646Z">
+<meta property="article:modified_time" content="2023-12-21T11:50:05.646Z">
 <meta property="article:author" content="OnSimple">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png">
@@ -2251,7 +2253,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     root: '/',
     debug: "env",
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1703157421353),
+    lastupdate: new Date(1703159431558),
     cdn: {
       izitoast_css: 'https://cdn.bootcdn.net/ajax/libs/izitoast/1.4.0/css/iziToast.min.css',
       izitoast_js: 'https://cdn.bootcdn.net/ajax/libs/izitoast/1.4.0/js/iziToast.min.js',
@@ -2717,25 +2719,9 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       <div id="safearea">
         <div class="body-wrapper">
           
-
 <div id="l_main" class=''>
-  
-    
-      
-  <section class="post-list">
-    
-      
-        
-          
-        
-      
-    
-    
-      
-        
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
-  <link itemprop="mainEntityOfPage" href="https://syou-kan.github.io/undefined/nacos_2.2.1部署.html">
+  <article itemscope itemtype="http://schema.org/Article" class="article post white-box reveal md shadow floatable blur article-type-post" id="post" itemscope itemprop="blogPost">
+  <link itemprop="mainEntityOfPage" href="https://syou-kan.github.io/undefined/Volantis配置2.html">
   <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
     <meta itemprop="name" content="Hexo">
   </span>
@@ -2744,68 +2730,268 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <meta itemprop="description" content="blog">
   </span>
   
+
+
+  
+    <span hidden>
+      <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png">
+    </span>
+  
+  <div class="article-meta" id="top">
+    
+    
+    
+      <span hidden itemprop="name headline">
+        
+      </span>
+    
+  </div>
+
+
+  <div id="layoutHelper-page-plugins"></div>
+  <div id="post-body" itemprop="articleBody">
+    <h3 id="自定义资源注入"><a href="#自定义资源注入" class="headerlink" title="自定义资源注入"></a>自定义资源注入</h3><p>建议在 <code>hexo/source/_volantis/</code> 目录下注入自定义资源,下面是该目录下文件说明(如果没有可自行创建)</p>
+<table>
+<thead>
+<tr>
+<th>文件名</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>first.styl</td>
+<td>将样式以硬编码形式直接写入HTML</td>
+</tr>
+<tr>
+<td>style.styl</td>
+<td>延迟异步加载样式</td>
+</tr>
+<tr>
+<td>dark.styl</td>
+<td>暗黑模式地强制覆盖样式</td>
+</tr>
+<tr>
+<td>darkVar.styl</td>
+<td>暗黑模式的CSS变量</td>
+</tr>
+<tr>
+<td>headBegin.ejs</td>
+<td><code>&lt;head&gt;</code> 标签开头注入自定义内容</td>
+</tr>
+<tr>
+<td>headEnd.ejs</td>
+<td><code>&lt;head&gt;</code> 标签末尾注入自定义内容</td>
+</tr>
+<tr>
+<td>header.ejs</td>
+<td>导航栏 <code>.nav-main</code> 末尾注入自定义内容</td>
+</tr>
+<tr>
+<td>topMeta.ejs</td>
+<td>侧边栏 <code>#l_side</code> 末尾注入自定义内容</td>
+</tr>
+<tr>
+<td>bottomMeta.ejs</td>
+<td><code>topMetas</code> 末尾注入自定义内容</td>
+</tr>
+<tr>
+<td>postEnd.ejs</td>
+<td>页尾注入自定义内容</td>
+</tr>
+<tr>
+<td>bodyBegin.ejs</td>
+<td><code>&lt;body&gt;</code> 标签开头注入自定义内容</td>
+</tr>
+<tr>
+<td>bodyEnd.ejs</td>
+<td><code>&lt;body&gt;</code> 标签末尾注入自定义内容</td>
+</tr>
+</tbody></table>
+<hr>
+<h3 id="修改导航栏，作者logo"><a href="#修改导航栏，作者logo" class="headerlink" title="修改导航栏，作者logo"></a>修改导航栏，作者logo</h3><p><code>img</code>改成自己的logo链接就好</p>
+<img src="https://gcore.jsdelivr.net/gh/silentrookie1/Image/img/2023-10-02/volantis%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/assets/202310021415088.png" class="lazyload" data-srcset="https://gcore.jsdelivr.net/gh/silentrookie1/Image/img/2023-10-02/volantis%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/assets/202310021415088.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="导航栏logo" style="zoom: 10%;" />
+
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">navbar:</span></span><br><span class="line">  <span class="attr">visiable:</span> <span class="string">always</span> <span class="comment"># always, auto</span></span><br><span class="line">  <span class="attr">logo:</span> <span class="comment"># choose [img] or [icon + title]</span></span><br><span class="line">    <span class="attr">img:</span> </span><br><span class="line">    <span class="attr">icon:</span></span><br><span class="line">    <span class="attr">title:</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="修改右键菜单"><a href="#修改右键菜单" class="headerlink" title="修改右键菜单"></a>修改右键菜单</h3><p>打开熟悉的<code>_config.volantis.yml</code> 文件，根据自己的喜好修改以下代码：</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">### 自定义右键 新</span></span><br><span class="line"><span class="attr">rightmenus:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="comment"># 右键菜单项及加载顺序</span></span><br><span class="line">  <span class="comment"># 内容示例：plugins.[组名], menus.[组名], hr(分割线，推荐去线留白), music(音乐控制器)</span></span><br><span class="line">  <span class="attr">order:</span> </span><br><span class="line">    <span class="bullet">-</span> <span class="string">plugins.navigation</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">hr</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">plugins.inputBox</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">plugins.seletctText</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">plugins.elementCheck</span></span><br><span class="line">    <span class="comment"># - plugins.elementImage</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">menus.link</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">hr</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">menus.darkMode</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">plugins.articlePage</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">music</span></span><br><span class="line">  <span class="comment">############################</span></span><br><span class="line">  <span class="comment"># - &#123;id: &#x27;&#x27;, name: &#x27;&#x27;, icon: &#x27;&#x27;, link: &#x27;&#x27;, event: &#x27;&#x27;, group: &#x27;&#x27;&#125;</span></span><br><span class="line">  <span class="comment"># id: 唯一值</span></span><br><span class="line">  <span class="comment"># name: 用于菜单名称显示</span></span><br><span class="line">  <span class="comment"># icon: 用于菜单图标显示</span></span><br><span class="line">  <span class="comment"># link: 跳转链接</span></span><br><span class="line">  <span class="comment"># event: 事件，当输入内容不为内置事件时，作 JavaScript 代码执行</span></span><br><span class="line">  <span class="comment"># group: 菜单项所处分组名称</span></span><br><span class="line">  <span class="comment"># 注： </span></span><br><span class="line">  <span class="comment"># 1. link/event 二选一，同时出现时仅处理 link</span></span><br><span class="line">  <span class="comment"># 2. 内置事件列表： copyText, copyLink, copyPaste, copyAll, copyCut, copyImg, printMode, readMode</span></span><br><span class="line">  <span class="comment"># 3. 内置组列表：navigation, inputBox, seletctText, elementCheck, elementImage, articlePage</span></span><br><span class="line">  <span class="comment"># 4. plugins 列允许自定义组内项目</span></span><br><span class="line">  <span class="comment"># 5. menus   列允许自定义组及其内容</span></span><br><span class="line">  <span class="comment"># 6. 除 navigation 外的内置组，在显示时会隐藏含 link 属性的菜单项</span></span><br><span class="line">  <span class="comment">###########################</span></span><br><span class="line">  <span class="comment"># 基础项设置</span></span><br><span class="line">  <span class="attr">options:</span></span><br><span class="line">    <span class="comment"># 图标前缀 fa-solid, fa-regular, fa-light, fa-thin, fa-duotone, fa-brands</span></span><br><span class="line">    <span class="attr">iconPrefix:</span> <span class="string">fa-solid</span></span><br><span class="line">    <span class="comment"># 例外，在 articlePage 组显示时（文章页）时依旧显示含 link 属性的菜单项</span></span><br><span class="line">    <span class="attr">articleShowLink:</span> <span class="literal">false</span></span><br><span class="line">    <span class="comment"># 当设定全局音乐播放器时，是否一直显示音乐控制菜单。false：仅当音乐播放时启用</span></span><br><span class="line">    <span class="attr">musicAlwaysShow:</span> <span class="literal">false</span></span><br><span class="line">    <span class="comment"># 适用于复制图片文件的场景，当图片源未设置 Access-Control-Allow-Origin 时，图片复制由于 CORS 问题失败</span></span><br><span class="line">    <span class="comment"># 你可以自行部署相应项目解决该问题，详见：https://github.com/Rob--W/cors-anywhere 或者 https://github.com/Zibri/cloudflare-cors-anywhere</span></span><br><span class="line">    <span class="attr">corsAnywhere:</span> </span><br><span class="line">  <span class="comment"># 右键内置组，预置实现</span></span><br><span class="line">  <span class="attr">plugins:</span></span><br><span class="line">    <span class="comment"># 导航组件</span></span><br><span class="line">    <span class="comment"># 横向排列，共用一行，仅显示图标 (原则上支持的数量不限)</span></span><br><span class="line">    <span class="attr">navigation:</span> </span><br><span class="line">      <span class="bullet">-</span> &#123;<span class="attr">id:</span> <span class="string">&#x27;left&#x27;</span>, <span class="attr">name:</span> <span class="string">&#x27;转到上一页&#x27;</span>, <span class="attr">icon:</span> <span class="string">&#x27;fa-solid fa-arrow-left&#x27;</span>, <span class="attr">event:</span> <span class="string">&#x27;history.back()&#x27;</span>, <span class="attr">group:</span> <span class="string">&#x27;navigation&#x27;</span>&#125;</span><br><span class="line">      <span class="bullet">-</span> &#123;<span class="attr">id:</span> <span class="string">&#x27;right&#x27;</span>, <span class="attr">name:</span> <span class="string">&#x27;转到下一页&#x27;</span>, <span class="attr">icon:</span> <span class="string">&#x27;fa-solid fa-arrow-right&#x27;</span>, <span class="attr">event:</span> <span class="string">&#x27;history.forward()&#x27;</span>, <span class="attr">group:</span> <span class="string">&#x27;navigation&#x27;</span>&#125;</span><br><span class="line">      <span class="bullet">-</span> &#123;<span class="attr">id:</span> <span class="string">&#x27;redo&#x27;</span>, <span class="attr">name:</span> <span class="string">&#x27;刷新当前页面&#x27;</span>, <span class="attr">icon:</span> <span class="string">&#x27;fa-solid fa-redo&#x27;</span>, <span class="attr">event:</span> <span class="string">&#x27;window.location.reload()&#x27;</span>, <span class="attr">group:</span> <span class="string">&#x27;navigation&#x27;</span>&#125;</span><br><span class="line">      <span class="comment">#- &#123;id: &#x27;up&#x27;, name: &#x27;回到顶部&#x27;, icon: &#x27;fa-solid fa-arrow-up&#x27;, event: &#x27;VolantisApp.scrolltoElement(volantis.dom.bodyAnchor)&#x27;, group: &#x27;navigation&#x27;&#125;</span></span><br><span class="line">      <span class="bullet">-</span> &#123;<span class="attr">id:</span> <span class="string">&#x27;home&#x27;</span>, <span class="attr">name:</span> <span class="string">&#x27;回到首页&#x27;</span>, <span class="attr">icon:</span> <span class="string">&#x27;fa-solid fa-home&#x27;</span>, <span class="attr">link:</span> <span class="string">&#x27;/&#x27;</span>, <span class="attr">group:</span> <span class="string">&#x27;navigation&#x27;</span>&#125;</span><br><span class="line">    <span class="comment"># 文本输入框相关组件</span></span><br><span class="line">    <span class="comment"># 生效于 input/textarea，粘贴、剪切、全选</span></span><br><span class="line">    <span class="attr">inputBox:</span></span><br><span class="line">      <span class="bullet">-</span> &#123;<span class="attr">id:</span> <span class="string">&#x27;copyPaste&#x27;</span>, <span class="attr">name:</span> <span class="string">&#x27;粘贴文本&#x27;</span>, <span class="attr">icon:</span> <span class="string">&#x27;fa-solid fa-paste&#x27;</span>, <span class="attr">event:</span> <span class="string">&#x27;copyPaste&#x27;</span>, <span class="attr">group:</span> <span class="string">&#x27;inputBox&#x27;</span>&#125;</span><br><span class="line">      <span class="bullet">-</span> &#123;<span class="attr">id:</span> <span class="string">&#x27;copyAll&#x27;</span>, <span class="attr">name:</span> <span class="string">&#x27;全选文本&#x27;</span>, <span class="attr">icon:</span> <span class="string">&#x27;fa-solid fa-object-ungroup&#x27;</span>, <span class="attr">event:</span> <span class="string">&#x27;copyAll&#x27;</span>, <span class="attr">group:</span> <span class="string">&#x27;inputBox&#x27;</span>&#125;</span><br><span class="line">      <span class="bullet">-</span> &#123;<span class="attr">id:</span> <span class="string">&#x27;copyCut&#x27;</span>, <span class="attr">name:</span> <span class="string">&#x27;剪切文本&#x27;</span>, <span class="attr">icon:</span> <span class="string">&#x27;fa-solid fa-cut&#x27;</span>, <span class="attr">event:</span> <span class="string">&#x27;copyCut&#x27;</span>, <span class="attr">group:</span> <span class="string">&#x27;inputBox&#x27;</span>&#125;</span><br><span class="line">    <span class="comment"># 文本选中类组件</span></span><br><span class="line">    <span class="comment"># 生效于右键选中文本，__text__ 为选中的文本。     </span></span><br><span class="line">    <span class="attr">seletctText:</span></span><br><span class="line">      <span class="bullet">-</span> &#123;<span class="attr">id:</span> <span class="string">&#x27;copyText&#x27;</span>, <span class="attr">name:</span> <span class="string">&#x27;复制文本&#x27;</span>, <span class="attr">icon:</span> <span class="string">&#x27;fa-solid fa-copy&#x27;</span>, <span class="attr">event:</span> <span class="string">&#x27;copyText&#x27;</span>, <span class="attr">group:</span> <span class="string">&#x27;seletctText&#x27;</span>&#125;</span><br><span class="line">      <span class="bullet">-</span> &#123;<span class="attr">id:</span> <span class="string">&#x27;searchWord&#x27;</span>, <span class="attr">name:</span> <span class="string">&#x27;站内搜索&#x27;</span>, <span class="attr">icon:</span> <span class="string">&#x27;fa-solid fa-search&#x27;</span>, <span class="attr">event:</span> <span class="string">&#x27;OpenSearch(__text__)&#x27;</span>, <span class="attr">group:</span> <span class="string">&#x27;seletctText&#x27;</span>&#125;</span><br><span class="line">      <span class="bullet">-</span> &#123;<span class="attr">id:</span> <span class="string">&#x27;CSDNSearch&#x27;</span>, <span class="attr">name:</span> <span class="string">&#x27;CSDN搜索&#x27;</span>, <span class="attr">icon:</span> <span class="string">&#x27;fa-solid fa-search&#x27;</span>, <span class="attr">event:</span> <span class="string">&#x27;window.open(`https://so.csdn.net/so/search?q=$&#123;__text__&#125;`)&#x27;</span>, <span class="attr">group:</span> <span class="string">&#x27;seletctText&#x27;</span>&#125;</span><br><span class="line">      <span class="bullet">-</span> &#123;<span class="attr">id:</span> <span class="string">&#x27;baiduSearch&#x27;</span>, <span class="attr">name:</span> <span class="string">&#x27;百度搜索&#x27;</span>, <span class="attr">icon:</span> <span class="string">&#x27;fa-solid fa-search&#x27;</span>, <span class="attr">event:</span> <span class="string">&#x27;window.open(`https://www.baidu.com/s?wd=$&#123;__text__&#125;`)&#x27;</span>, <span class="attr">group:</span> <span class="string">&#x27;seletctText&#x27;</span>&#125;</span><br><span class="line">      <span class="bullet">-</span> &#123;<span class="attr">id:</span> <span class="string">&#x27;bingSearch&#x27;</span>, <span class="attr">name:</span> <span class="string">&#x27;必应搜索&#x27;</span>, <span class="attr">icon:</span> <span class="string">&#x27;fa-solid fa-search&#x27;</span>, <span class="attr">event:</span> <span class="string">&#x27;window.open(`https://cn.bing.com/search?q=$&#123;__text__&#125;`)&#x27;</span>, <span class="attr">group:</span> <span class="string">&#x27;seletctText&#x27;</span>&#125;</span><br><span class="line">      <span class="comment"># - &#123;id: &#x27;googleSearch&#x27;, name: &#x27;谷歌搜索&#x27;, icon: &#x27;fa-solid fa-search&#x27;, event: &#x27;window.open(`https://www.google.com/search?q=$&#123;__text__&#125;`)&#x27;, group: &#x27;seletctText&#x27;&#125;</span></span><br><span class="line">    <span class="comment"># 链接判断组件</span></span><br><span class="line">    <span class="comment"># 生效于链接处的右键行为，__link__ 为链接地址</span></span><br><span class="line">    <span class="attr">elementCheck:</span></span><br><span class="line">      <span class="bullet">-</span> &#123;<span class="attr">id:</span> <span class="string">&#x27;openTab&#x27;</span>, <span class="attr">name:</span> <span class="string">&#x27;新标签页打开&#x27;</span>, <span class="attr">icon:</span> <span class="string">&#x27;fa-solid fa-external-link-square-alt&#x27;</span>, <span class="attr">event:</span> <span class="string">&#x27;window.open(__link__)&#x27;</span>, <span class="attr">group:</span> <span class="string">&#x27;elementCheck&#x27;</span>&#125;</span><br><span class="line">      <span class="bullet">-</span> &#123;<span class="attr">id:</span> <span class="string">&#x27;copyLink&#x27;</span>, <span class="attr">name:</span> <span class="string">&#x27;复制链接地址&#x27;</span>, <span class="attr">icon:</span> <span class="string">&#x27;fa-solid fa-link&#x27;</span>, <span class="attr">event:</span> <span class="string">&#x27;copyLink&#x27;</span>, <span class="attr">group:</span> <span class="string">&#x27;elementCheck&#x27;</span>&#125;</span><br><span class="line">    <span class="comment"># 图片判断类组件</span></span><br><span class="line">    <span class="comment"># 生效于图片类的右键行为，__link__ 为链接地址</span></span><br><span class="line">    <span class="comment"># elementImage:</span></span><br><span class="line">      <span class="comment"># - &#123;id: &#x27;copyImg&#x27;, name: &#x27;复制图片&#x27;, icon: &#x27;fa-solid fa-image&#x27;, event: &#x27;copyImg&#x27;, group: &#x27;elementImage&#x27;&#125;</span></span><br><span class="line">      <span class="comment"># - &#123;id: &#x27;googleImg&#x27;, name: &#x27;谷歌识图&#x27;, icon: &#x27;fa-solid fa-images&#x27;, event: &#x27;window.open(`https://www.google.com.hk/searchbyimage?image_url=$&#123;__link__&#125;`)&#x27;, group: &#x27;elementImage&#x27;&#125;</span></span><br><span class="line">    <span class="comment"># 文章页面组件</span></span><br><span class="line">    <span class="comment"># 生效于 post.article 页面</span></span><br><span class="line">    <span class="attr">articlePage:</span></span><br><span class="line">      <span class="bullet">-</span> &#123;<span class="attr">id:</span> <span class="string">&#x27;printMode&#x27;</span>, <span class="attr">name:</span> <span class="string">&#x27;打印页面&#x27;</span>, <span class="attr">icon:</span> <span class="string">&#x27;fa-solid fa-print&#x27;</span>, <span class="attr">event:</span> <span class="string">&#x27;printMode&#x27;</span>, <span class="attr">group:</span> <span class="string">&#x27;articlePage&#x27;</span>&#125;</span><br><span class="line">      <span class="bullet">-</span> &#123;<span class="attr">id:</span> <span class="string">&#x27;readMode&#x27;</span>, <span class="attr">name:</span> <span class="string">&#x27;阅读模式&#x27;</span>, <span class="attr">icon:</span> <span class="string">&#x27;fa-solid fa-book-open&#x27;</span>, <span class="attr">event:</span> <span class="string">&#x27;readMode&#x27;</span>, <span class="attr">group:</span> <span class="string">&#x27;articlePage&#x27;</span>&#125;</span><br><span class="line">  <span class="comment"># 右键自定义菜单区域</span></span><br><span class="line">  <span class="attr">menus:</span></span><br><span class="line">    <span class="attr">link:</span></span><br><span class="line">      <span class="comment"># - &#123;id: &#x27;help&#x27;, name: &#x27;常见问题&#x27;, icon: &#x27;fa-solid fa-question&#x27;, link: &#x27;https://volantis.js.org/faqs/&#x27;, group: &#x27;link&#x27;&#125;</span></span><br><span class="line">      <span class="comment"># - &#123;id: &#x27;examples&#x27;, name: &#x27;示例博客&#x27;, icon: &#x27;fa-solid fa-rss&#x27;, link: &#x27;https://volantis.js.org/examples/&#x27;, group: &#x27;link&#x27;&#125;</span></span><br><span class="line">      <span class="comment"># - &#123;id: &#x27;contributors&#x27;, name: &#x27;加入社区&#x27;, icon: &#x27;fa-solid fa-fan&#x27;, link: &#x27;https://volantis.js.org/contributors/&#x27;, group: &#x27;link&#x27;&#125;</span></span><br><span class="line">      <span class="comment"># - hr</span></span><br><span class="line">       <span class="bullet">-</span> &#123;<span class="attr">id:</span> <span class="string">&#x27;source_docs&#x27;</span>, <span class="attr">name:</span> <span class="string">&#x27;本站源码&#x27;</span>, <span class="attr">icon:</span> <span class="string">&#x27;fa-solid fa-code-branch&#x27;</span>, <span class="attr">link:</span> <span class="string">&#x27;https://gitee.com/clever-ming/clever-ming/&#x27;</span>, <span class="attr">group:</span> <span class="string">&#x27;link&#x27;</span>&#125;</span><br><span class="line">       <span class="bullet">-</span> &#123;<span class="attr">id:</span> <span class="string">&#x27;source_theme&#x27;</span>, <span class="attr">name:</span> <span class="string">&#x27;volantis社区&#x27;</span>, <span class="attr">icon:</span> <span class="string">&#x27;fa-solid fa-code-branch&#x27;</span>, <span class="attr">link:</span> <span class="string">&#x27;https://volantis.js.org/&#x27;</span>, <span class="attr">group:</span> <span class="string">&#x27;link&#x27;</span>&#125;</span><br><span class="line">    <span class="attr">darkMode:</span> </span><br><span class="line">      <span class="bullet">-</span> &#123;<span class="attr">id:</span> <span class="string">&#x27;darkMode&#x27;</span>, <span class="attr">name:</span> <span class="string">&#x27;夜间模式&#x27;</span>, <span class="attr">icon:</span> <span class="string">&#x27;fa-solid fa-moon&#x27;</span>, <span class="attr">event:</span> <span class="string">&#x27;volantis.dark.toggle()&#x27;</span>, <span class="attr">group:</span> <span class="string">&#x27;darkMode&#x27;</span>&#125;</span><br><span class="line"><span class="comment">###</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="多背景图与横竖屏优化"><a href="#多背景图与横竖屏优化" class="headerlink" title="多背景图与横竖屏优化"></a>多背景图与横竖屏优化</h3><p>如果你的背景图按照某一规律命名(例如<code>数字.jpg</code>),且数量很多,则可以修改主题代码,每次随机生成.但如果你是上传到图床,且命名都是随机的,那么就老老实实去配置文件<code>hexo\_config.volantis.yml</code>里写</p>
+<p>假设你把背景图放在<code>https://cdn.example.com/img/</code>目录下,且图片命名是<code>1.jpg</code>到<code>100.jpg</code>,那么你可以按照以下示例修改代码</p>
+<p>修改或覆盖<code>hexo/themes/volantis/layout/_plugins/parallax/script.ejs</code></p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">const</span> img_config = &#123;</span></span><br><span class="line"><span class="language-javascript">    <span class="attr">min</span>: <span class="number">1</span>,</span></span><br><span class="line"><span class="language-javascript">    <span class="attr">max</span>: <span class="number">100</span>,</span></span><br><span class="line"><span class="language-javascript">    <span class="attr">root</span>: <span class="string">&quot;https://cdn.example.com/img/&quot;</span></span></span><br><span class="line"><span class="language-javascript">&#125;</span></span><br><span class="line"><span class="language-javascript"><span class="keyword">let</span> <span class="title class_">IntervalParallax</span> = <span class="literal">null</span>;</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">function</span> <span class="title function_">parallax</span>(<span class="params"></span>) &#123;</span></span><br><span class="line"><span class="language-javascript">    &lt;% <span class="keyword">if</span> (theme.<span class="property">plugins</span>.<span class="property">parallax</span>.<span class="property">position</span> == <span class="string">&quot;fixed&quot;</span>) &#123; %&gt;</span></span><br><span class="line"><span class="language-javascript">    <span class="keyword">let</span> <span class="title class_">ParallaxWindow</span> = <span class="variable language_">document</span>.<span class="title function_">querySelector</span>(<span class="string">&quot;html&quot;</span>);</span></span><br><span class="line"><span class="language-javascript">    &lt;% &#125; <span class="keyword">else</span>&#123; %&gt;</span></span><br><span class="line"><span class="language-javascript">    <span class="keyword">let</span> <span class="title class_">ParallaxWindow</span> = <span class="variable language_">document</span>.<span class="title function_">querySelector</span>(<span class="string">&quot;#parallax-window&quot;</span>);</span></span><br><span class="line"><span class="language-javascript">    &lt;% &#125; %&gt;</span></span><br><span class="line"><span class="language-javascript">    <span class="title class_">Parallax</span>.<span class="property">window</span> = <span class="title class_">ParallaxWindow</span>;</span></span><br><span class="line"><span class="language-javascript">    <span class="title class_">Parallax</span>.<span class="property">options</span>.<span class="property">fade</span> = &lt;%- theme.<span class="property">plugins</span>.<span class="property">parallax</span>.<span class="property">fade</span> %&gt;;</span></span><br><span class="line"><span class="language-javascript">    <span class="title class_">Parallax</span>.<span class="property">cache</span> = <span class="number">1</span>;</span></span><br><span class="line"><span class="language-javascript">    <span class="title function_">next_parallax</span>();</span></span><br><span class="line"><span class="language-javascript">    <span class="title class_">Parallax</span>.<span class="title function_">init</span>();</span></span><br><span class="line"><span class="language-javascript">    <span class="title class_">IntervalParallax</span> = <span class="built_in">setInterval</span>(<span class="keyword">function</span> (<span class="params"></span>) &#123;</span></span><br><span class="line"><span class="language-javascript">        <span class="keyword">if</span>(!<span class="variable language_">document</span>.<span class="property">hidden</span>)&#123;</span></span><br><span class="line"><span class="language-javascript">            <span class="title function_">next_parallax</span>();</span></span><br><span class="line"><span class="language-javascript">        &#125;</span></span><br><span class="line"><span class="language-javascript">    &#125;, <span class="string">&#x27;&lt;%- theme.plugins.parallax.duration %&gt;&#x27;</span>);</span></span><br><span class="line"><span class="language-javascript">&#125;</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">function</span> <span class="title function_">next_parallax</span>(<span class="params"></span>) &#123;</span></span><br><span class="line"><span class="language-javascript">    <span class="keyword">if</span> (<span class="keyword">typeof</span> <span class="title class_">Parallax</span> == <span class="string">&quot;undefined&quot;</span>) &#123;</span></span><br><span class="line"><span class="language-javascript">        <span class="keyword">return</span></span></span><br><span class="line"><span class="language-javascript">    &#125;</span></span><br><span class="line"><span class="language-javascript">    &lt;% <span class="keyword">if</span> (theme.<span class="property">plugins</span>.<span class="property">parallax</span>.<span class="property">position</span> != <span class="string">&quot;fixed&quot;</span>) &#123; %&gt;</span></span><br><span class="line"><span class="language-javascript">    <span class="keyword">if</span> (!<span class="variable language_">document</span>.<span class="title function_">querySelector</span>(<span class="string">&quot;#full&quot;</span>) &amp;&amp; !<span class="variable language_">document</span>.<span class="title function_">querySelector</span>(<span class="string">&quot;#half&quot;</span>)) &#123;</span></span><br><span class="line"><span class="language-javascript">        <span class="keyword">return</span></span></span><br><span class="line"><span class="language-javascript">    &#125;</span></span><br><span class="line"><span class="language-javascript">    &lt;% &#125; %&gt;</span></span><br><span class="line"><span class="language-javascript">    <span class="comment">// 生成随机图片地址</span></span></span><br><span class="line"><span class="language-javascript">    <span class="keyword">let</span> index = <span class="title class_">Math</span>.<span class="title function_">floor</span>(<span class="title class_">Math</span>.<span class="title function_">random</span>() * (img_config.<span class="property">max</span> - img_config.<span class="property">min</span> + <span class="number">1</span>) + img_config.<span class="property">min</span>);</span></span><br><span class="line"><span class="language-javascript">    <span class="keyword">let</span> img = <span class="string">`<span class="subst">$&#123;img_config.root&#125;</span><span class="subst">$&#123;index&#125;</span>.jpg`</span>;</span></span><br><span class="line"><span class="language-javascript">    <span class="title class_">Parallax</span>.<span class="property">options</span>.<span class="property">src</span> = img;</span></span><br><span class="line"><span class="language-javascript">    <span class="title class_">Parallax</span>.<span class="title function_">start</span>();</span></span><br><span class="line"><span class="language-javascript">&#125;</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"><span class="keyword">var</span> runningOnBrowser = <span class="keyword">typeof</span> <span class="variable language_">window</span> !== <span class="string">&quot;undefined&quot;</span>;</span></span><br><span class="line"><span class="language-javascript"><span class="keyword">var</span> isBot = runningOnBrowser &amp;&amp; !(<span class="string">&quot;onscroll&quot;</span> <span class="keyword">in</span> <span class="variable language_">window</span>) || <span class="keyword">typeof</span> navigator !== <span class="string">&quot;undefined&quot;</span> &amp;&amp; <span class="regexp">/(gle|ing|ro|msn)bot|crawl|spider|yand|duckgo/i</span>.<span class="title function_">test</span>(navigator.<span class="property">userAgent</span>);</span></span><br><span class="line"><span class="language-javascript"><span class="keyword">if</span> (!isBot) &#123;</span></span><br><span class="line"><span class="language-javascript">    <span class="comment">// `theme.cdn.map.js.parallax` 变量已过时</span></span></span><br><span class="line"><span class="language-javascript">    volantis.<span class="title function_">js</span>(<span class="string">&#x27;&lt;%- theme.cdn.volantis_parallax %&gt;&#x27;</span>).<span class="title function_">then</span>(<span class="function">() =&gt;</span> &#123;</span></span><br><span class="line"><span class="language-javascript">        <span class="title function_">parallax</span>()</span></span><br><span class="line"><span class="language-javascript">    &#125;)</span></span><br><span class="line"><span class="language-javascript">    volantis.<span class="property">pjax</span>.<span class="title function_">send</span>(<span class="function">() =&gt;</span> &#123;</span></span><br><span class="line"><span class="language-javascript">        <span class="built_in">clearInterval</span>(<span class="title class_">IntervalParallax</span>)</span></span><br><span class="line"><span class="language-javascript">    &#125;, <span class="string">&quot;clearIntervalParallax&quot;</span>);</span></span><br><span class="line"><span class="language-javascript">    volantis.<span class="property">pjax</span>.<span class="title function_">push</span>(parallax);</span></span><br><span class="line"><span class="language-javascript">&#125;</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>如果希望根据横竖屏加载不同的壁纸,则修改上面的<code>next_parallax()</code>函数,如下</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">next_parallax</span>(<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">if</span> (<span class="keyword">typeof</span> <span class="title class_">Parallax</span> == <span class="string">&quot;undefined&quot;</span>) &#123;</span><br><span class="line">        <span class="keyword">return</span></span><br><span class="line">    &#125;</span><br><span class="line">    &lt;% <span class="keyword">if</span> (theme.<span class="property">plugins</span>.<span class="property">parallax</span>.<span class="property">position</span> != <span class="string">&quot;fixed&quot;</span>) &#123; %&gt;</span><br><span class="line">    <span class="keyword">if</span> (!<span class="variable language_">document</span>.<span class="title function_">querySelector</span>(<span class="string">&quot;#full&quot;</span>) &amp;&amp; !<span class="variable language_">document</span>.<span class="title function_">querySelector</span>(<span class="string">&quot;#half&quot;</span>)) &#123;</span><br><span class="line">        <span class="keyword">return</span></span><br><span class="line">    &#125;</span><br><span class="line">    &lt;% &#125; %&gt;</span><br><span class="line">    <span class="comment">// 根据长宽比判断当前是手机还是电脑</span></span><br><span class="line">    <span class="keyword">let</span> width = <span class="variable language_">window</span>.<span class="property">innerWidth</span> || <span class="variable language_">document</span>.<span class="property">body</span>.<span class="property">clientWidth</span>;</span><br><span class="line">    <span class="keyword">let</span> height = <span class="variable language_">window</span>.<span class="property">innerHeight</span> || <span class="variable language_">document</span>.<span class="property">body</span>.<span class="property">clientHeight</span>;</span><br><span class="line">    <span class="comment">// 高 / 宽 &gt; 1.3 即认为是竖屏</span></span><br><span class="line">    <span class="keyword">let</span> client = height / width &gt; <span class="number">1.3</span></span><br><span class="line">        ? <span class="string">&quot;mobile&quot;</span></span><br><span class="line">        : <span class="string">&quot;pc&quot;</span>;</span><br><span class="line">    <span class="comment">// 此处改为你自己或其他API,并按照说明修改代码</span></span><br><span class="line">    <span class="keyword">let</span> img = <span class="string">`https://api.dearxuan.com/image?type=<span class="subst">$&#123;client&#125;</span>`</span></span><br><span class="line">    <span class="title class_">Parallax</span>.<span class="property">options</span>.<span class="property">src</span> = img;</span><br><span class="line">    <span class="title class_">Parallax</span>.<span class="title function_">start</span>();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>或者你也可以使用下面的代码,来判断浏览器类型,从而返回不同的图片,但是要注意手机不一定全是竖屏,电脑也不一定全是横屏,推荐用上面的长宽比来判断</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> client;</span><br><span class="line"><span class="comment">//检测平台</span></span><br><span class="line"><span class="keyword">var</span> p = navigator.<span class="property">userAgent</span>;</span><br><span class="line"><span class="keyword">if</span>(p.<span class="title function_">toLowerCase</span>().<span class="title function_">includes</span>(<span class="string">&quot;qq&quot;</span>))&#123;</span><br><span class="line">    client = <span class="string">&quot;qq&quot;</span> <span class="comment">// QQ内置</span></span><br><span class="line">&#125;<span class="keyword">else</span> <span class="keyword">if</span>(p.<span class="title function_">toLowerCase</span>().<span class="title function_">includes</span>(<span class="string">&quot;micromessenger&quot;</span>))&#123;</span><br><span class="line">    client = <span class="string">&quot;weixin&quot;</span> <span class="comment">// 微信内置</span></span><br><span class="line">&#125;<span class="keyword">else</span> <span class="keyword">if</span>(p.<span class="title function_">includes</span>(<span class="string">&quot;Win&quot;</span>))&#123;</span><br><span class="line">    client = <span class="string">&quot;windows&quot;</span> <span class="comment">// Windows电脑</span></span><br><span class="line">&#125;<span class="keyword">else</span> <span class="keyword">if</span>(p.<span class="title function_">includes</span>(<span class="string">&quot;Mac&quot;</span>))&#123;</span><br><span class="line">    client = <span class="string">&quot;mac&quot;</span> <span class="comment">// 苹果电脑</span></span><br><span class="line">&#125;<span class="keyword">else</span> <span class="keyword">if</span>(p.<span class="title function_">includes</span>(<span class="string">&quot;X11&quot;</span>))&#123;</span><br><span class="line">    client = <span class="string">&quot;linux&quot;</span> <span class="comment">// Linux电脑</span></span><br><span class="line">&#125;<span class="keyword">else</span> <span class="keyword">if</span>(p.<span class="title function_">includes</span>(<span class="string">&quot;Android&quot;</span>))&#123;</span><br><span class="line">    client = <span class="string">&quot;android&quot;</span> <span class="comment">// 安卓手机</span></span><br><span class="line">&#125;<span class="keyword">else</span> <span class="keyword">if</span>(p.<span class="title function_">toLowerCase</span>().<span class="title function_">includes</span>(<span class="string">&quot;ipad&quot;</span>))&#123;</span><br><span class="line">    client = <span class="string">&quot;ipad&quot;</span> <span class="comment">// iPad</span></span><br><span class="line">&#125;<span class="keyword">else</span> <span class="keyword">if</span>(p.<span class="title function_">includes</span>(<span class="string">&quot;iPhone&quot;</span>))&#123;</span><br><span class="line">    client = <span class="string">&quot;iphone&quot;</span> <span class="comment">// 苹果手机</span></span><br><span class="line">&#125;<span class="keyword">else</span> &#123;</span><br><span class="line">    client = <span class="string">&quot;other&quot;</span> <span class="comment">// 未知</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="暗黑模式动画"><a href="#暗黑模式动画" class="headerlink" title="暗黑模式动画"></a>暗黑模式动画</h2><p>引入以下<code>js</code>与<code>css</code>,注意<code>js</code>代码要加上<code>defer</code></p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">BackTOP</span>(<span class="params"></span>) &#123;</span><br><span class="line">    $(<span class="string">&quot;#btn&quot;</span>).<span class="title function_">hide</span>();</span><br><span class="line">    $(<span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">        $(<span class="variable language_">window</span>).<span class="title function_">scroll</span>(<span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">            <span class="keyword">if</span> ($(<span class="variable language_">window</span>).<span class="title function_">scrollTop</span>() &gt; <span class="number">50</span>) &#123;</span><br><span class="line">                $(<span class="string">&quot;#btn&quot;</span>).<span class="title function_">fadeIn</span>(<span class="number">200</span>);</span><br><span class="line">            &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                $(<span class="string">&quot;#btn&quot;</span>).<span class="title function_">fadeOut</span>(<span class="number">200</span>);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;);</span><br><span class="line">        $(<span class="string">&quot;#btn&quot;</span>).<span class="title function_">click</span>(<span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">            $(<span class="string">&#x27;body,html&#x27;</span>).<span class="title function_">animate</span>(&#123;</span><br><span class="line">                    <span class="attr">scrollTop</span>: <span class="number">0</span></span><br><span class="line">                &#125;,</span><br><span class="line">                <span class="number">500</span>);</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">        &#125;);</span><br><span class="line">    &#125;);</span><br><span class="line">    $(<span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">        $(<span class="string">&quot;#say&quot;</span>).<span class="title function_">click</span>(<span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">            $(<span class="string">&#x27;body,html&#x27;</span>).<span class="title function_">animate</span>(&#123;</span><br><span class="line">                    <span class="attr">scrollTop</span>: $(<span class="string">&#x27;html, body&#x27;</span>).<span class="title function_">get</span>(<span class="number">0</span>).<span class="property">scrollHeight</span></span><br><span class="line">                &#125;,</span><br><span class="line">                <span class="number">500</span>);</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">        &#125;);</span><br><span class="line">    &#125;)</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">$(<span class="string">&#x27;#readmode&#x27;</span>).<span class="title function_">click</span>(<span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">        $(<span class="string">&#x27;body&#x27;</span>).<span class="title function_">toggleClass</span>(<span class="string">&#x27;read-mode&#x27;</span>)</span><br><span class="line">    &#125;)</span><br><span class="line">    </span><br><span class="line"><span class="keyword">function</span> <span class="title function_">SiderMenu</span>(<span class="params"></span>) &#123;</span><br><span class="line">    $(<span class="string">&#x27;#main-container&#x27;</span>).<span class="title function_">toggleClass</span>(<span class="string">&#x27;open&#x27;</span>);</span><br><span class="line">    $(<span class="string">&#x27;.iconflat&#x27;</span>).<span class="title function_">css</span>(<span class="string">&#x27;width&#x27;</span>, <span class="string">&#x27;50px&#x27;</span>).<span class="title function_">css</span>(<span class="string">&#x27;height&#x27;</span>, <span class="string">&#x27;50px&#x27;</span>);</span><br><span class="line">    $(<span class="string">&#x27;.openNav&#x27;</span>).<span class="title function_">css</span>(<span class="string">&#x27;height&#x27;</span>, <span class="string">&#x27;50px&#x27;</span>);</span><br><span class="line">    $(<span class="string">&#x27;#main-container,#mo-nav,.openNav&#x27;</span>).<span class="title function_">toggleClass</span>(<span class="string">&#x27;open&#x27;</span>)</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">switchNightMode</span>(<span class="params"></span>) &#123;</span><br><span class="line">    $(<span class="string">&#x27;&lt;div class=&quot;Cuteen_DarkSky&quot;&gt;&lt;div class=&quot;Cuteen_DarkPlanet&quot;&gt;&lt;/div&gt;&lt;/div&gt;&#x27;</span>).<span class="title function_">appendTo</span>($(<span class="string">&quot;body&quot;</span>)), <span class="built_in">setTimeout</span>(</span><br><span class="line">        <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">            (volantis.<span class="property">dark</span>.<span class="property">mode</span> == <span class="string">&quot;dark&quot;</span>) </span><br><span class="line">            ? </span><br><span class="line">            ($(<span class="string">&quot;html&quot;</span>).<span class="title function_">addClass</span>(<span class="string">&quot;DarkMode&quot;</span>),</span><br><span class="line">            $(<span class="string">&#x27;#modeicon&#x27;</span>).<span class="title function_">attr</span>(<span class="string">&quot;xlink:href&quot;</span>, <span class="string">&quot;#icon-sun&quot;</span>)) </span><br><span class="line">            : </span><br><span class="line">            ($(<span class="string">&quot;html&quot;</span>).<span class="title function_">removeClass</span>(<span class="string">&quot;DarkMode&quot;</span>),</span><br><span class="line">            $(<span class="string">&#x27;#modeicon&#x27;</span>).<span class="title function_">attr</span>(<span class="string">&quot;xlink:href&quot;</span>, <span class="string">&quot;#icon-_moon&quot;</span>)), </span><br><span class="line">            <span class="built_in">setTimeout</span>(<span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">                $(<span class="string">&quot;.Cuteen_DarkSky&quot;</span>).<span class="title function_">fadeOut</span>(<span class="number">1e3</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">                    $(<span class="variable language_">this</span>).<span class="title function_">remove</span>()</span><br><span class="line">                &#125;)</span><br><span class="line">            &#125;, <span class="number">2e3</span>)</span><br><span class="line">        &#125;), <span class="number">50</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">checkNightMode</span>(<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">if</span> ($(<span class="string">&quot;html&quot;</span>).<span class="title function_">hasClass</span>(<span class="string">&quot;n-f&quot;</span>)) &#123;</span><br><span class="line">        $(<span class="string">&quot;html&quot;</span>).<span class="title function_">removeClass</span>(<span class="string">&quot;day&quot;</span>);</span><br><span class="line">        $(<span class="string">&quot;html&quot;</span>).<span class="title function_">addClass</span>(<span class="string">&quot;DarkMode&quot;</span>);</span><br><span class="line">        $(<span class="string">&#x27;#modeicon&#x27;</span>).<span class="title function_">attr</span>(<span class="string">&quot;xlink:href&quot;</span>, <span class="string">&quot;#icon-sun&quot;</span>)</span><br><span class="line">        <span class="keyword">return</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span> ($(<span class="string">&quot;html&quot;</span>).<span class="title function_">hasClass</span>(<span class="string">&quot;d-f&quot;</span>)) &#123;</span><br><span class="line">        $(<span class="string">&quot;html&quot;</span>).<span class="title function_">removeClass</span>(<span class="string">&quot;DarkMode&quot;</span>);</span><br><span class="line">        $(<span class="string">&quot;html&quot;</span>).<span class="title function_">addClass</span>(<span class="string">&quot;day&quot;</span>);</span><br><span class="line">        $(<span class="string">&#x27;#modeicon&#x27;</span>).<span class="title function_">attr</span>(<span class="string">&quot;xlink:href&quot;</span>, <span class="string">&quot;#icon-_moon&quot;</span>)</span><br><span class="line">        <span class="keyword">return</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span> (volantis.<span class="property">dark</span>.<span class="property">mode</span> == <span class="string">&quot;dark&quot;</span>) &#123;</span><br><span class="line">        $(<span class="string">&quot;html&quot;</span>).<span class="title function_">addClass</span>(<span class="string">&quot;DarkMode&quot;</span>);</span><br><span class="line">        $(<span class="string">&#x27;#modeicon&#x27;</span>).<span class="title function_">attr</span>(<span class="string">&quot;xlink:href&quot;</span>, <span class="string">&quot;#icon-sun&quot;</span>)</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        $(<span class="string">&quot;html&quot;</span>).<span class="title function_">removeClass</span>(<span class="string">&quot;DarkMode&quot;</span>);</span><br><span class="line">        $(<span class="string">&#x27;#modeicon&#x27;</span>).<span class="title function_">attr</span>(<span class="string">&quot;xlink:href&quot;</span>, <span class="string">&quot;#icon-_moon&quot;</span>)</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="title class_">BackTOP</span>();</span><br><span class="line">volantis.<span class="property">dark</span>.<span class="title function_">push</span>(switchNightMode);</span><br></pre></td></tr></table></figure>
+
+
+
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-id">#RightDownBtn</span> &#123;</span><br><span class="line">    <span class="attribute">position</span>: fixed;</span><br><span class="line">    <span class="attribute">left</span>: <span class="number">1.875rem</span>;</span><br><span class="line">    <span class="attribute">bottom</span>: <span class="number">1.875rem</span>;</span><br><span class="line">    <span class="attribute">padding</span>: <span class="number">0.3125rem</span> <span class="number">0.625rem</span>;</span><br><span class="line">    <span class="attribute">background</span>: <span class="number">#fff</span>;</span><br><span class="line">    <span class="attribute">border-radius</span>: <span class="number">0.1875rem</span>;</span><br><span class="line">    <span class="attribute">transition</span>: <span class="number">0.3s</span> ease all;</span><br><span class="line">    <span class="attribute">z-index</span>: <span class="number">1</span>;</span><br><span class="line">    <span class="attribute">align-items</span>: flex-end;</span><br><span class="line">    <span class="attribute">flex-direction</span>: column;</span><br><span class="line">    <span class="attribute">display</span>: -moz-flex;</span><br><span class="line">    <span class="attribute">display</span>: flex;</span><br><span class="line">    <span class="attribute">float</span>: right;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#RightDownBtn</span>&gt;<span class="selector-tag">a</span>,</span><br><span class="line"><span class="selector-id">#RightDownBtn</span>&gt;<span class="selector-tag">label</span> &#123;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">1.5em</span>;</span><br><span class="line">    <span class="attribute">height</span>: <span class="number">1.5em</span>;</span><br><span class="line">    <span class="attribute">margin</span>: <span class="number">0.3125rem</span> <span class="number">0</span>;</span><br><span class="line">    <span class="attribute">transition</span>: .<span class="number">2s</span> <span class="built_in">cubic-bezier</span>(.<span class="number">25</span>, .<span class="number">46</span>, .<span class="number">45</span>, .<span class="number">94</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* font color */</span></span><br><span class="line"><span class="selector-class">.DarkMode</span> <span class="selector-id">#page</span>,</span><br><span class="line"><span class="selector-class">.DarkMode</span> <span class="selector-id">#colophon</span>,</span><br><span class="line"><span class="selector-class">.DarkMode</span> <span class="selector-id">#vcomments</span> <span class="selector-class">.vbtn</span>,</span><br><span class="line"><span class="selector-class">.DarkMode</span> <span class="selector-class">.art-content</span> <span class="selector-id">#archives</span> <span class="selector-class">.al_mon_list</span> <span class="selector-class">.al_mon</span>,</span><br><span class="line"><span class="selector-class">.DarkMode</span> <span class="selector-class">.art-content</span> <span class="selector-id">#archives</span> <span class="selector-class">.al_mon_list</span> <span class="selector-tag">span</span>,</span><br><span class="line"><span class="selector-class">.DarkMode</span> <span class="selector-tag">body</span>,</span><br><span class="line"><span class="selector-class">.DarkMode</span> <span class="selector-class">.art-content</span> <span class="selector-id">#archives</span> <span class="selector-class">.al_mon_list</span> <span class="selector-class">.al_mon</span>,</span><br><span class="line"><span class="selector-class">.DarkMode</span> <span class="selector-class">.art-content</span> <span class="selector-id">#archives</span> <span class="selector-class">.al_mon_list</span> <span class="selector-tag">span</span>,</span><br><span class="line"><span class="selector-class">.DarkMode</span> <span class="selector-tag">button</span>,</span><br><span class="line"><span class="selector-class">.DarkMode</span> <span class="selector-class">.art</span> <span class="selector-class">.art-content</span> <span class="selector-id">#archives</span> <span class="selector-tag">a</span>,</span><br><span class="line"><span class="selector-class">.DarkMode</span> <span class="selector-tag">textarea</span>,</span><br><span class="line"><span class="selector-class">.DarkMode</span> <span class="selector-tag">strong</span>,</span><br><span class="line"><span class="selector-class">.DarkMode</span> <span class="selector-tag">a</span>,</span><br><span class="line"><span class="selector-class">.DarkMode</span> <span class="selector-tag">p</span>,</span><br><span class="line"><span class="selector-class">.DarkMode</span> <span class="selector-tag">li</span>,</span><br><span class="line"><span class="selector-class">.DarkMode</span> <span class="selector-class">.label</span> &#123;</span><br><span class="line">    <span class="attribute">color</span>: <span class="built_in">rgba</span>(<span class="number">255</span>, <span class="number">255</span>, <span class="number">255</span>, .<span class="number">6</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="selector-class">.DarkMode</span> <span class="selector-id">#page</span>,</span><br><span class="line"><span class="selector-class">.DarkMode</span> <span class="selector-tag">body</span>,</span><br><span class="line"><span class="selector-class">.DarkMode</span> <span class="selector-id">#colophon</span>,</span><br><span class="line"><span class="selector-class">.DarkMode</span> <span class="selector-id">#main-container</span>,</span><br><span class="line"><span class="selector-class">.DarkMode</span> <span class="selector-id">#page</span> <span class="selector-class">.yya</span>,</span><br><span class="line"><span class="selector-class">.DarkMode</span> <span class="selector-id">#content</span>,</span><br><span class="line"><span class="selector-class">.DarkMode</span> <span class="selector-id">#contentss</span>,</span><br><span class="line"><span class="selector-class">.DarkMode</span> <span class="selector-id">#footer</span> &#123;</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="number">#292a2d</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.DarkMode</span> <span class="selector-tag">strong</span>,</span><br><span class="line"><span class="selector-class">.DarkMode</span> <span class="selector-tag">img</span> &#123;</span><br><span class="line">    <span class="attribute">filter</span>: <span class="built_in">brightness</span>(.<span class="number">7</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* sun and noon */</span></span><br><span class="line"><span class="selector-class">.Cuteen_DarkSky</span>,</span><br><span class="line"><span class="selector-class">.Cuteen_DarkSky</span><span class="selector-pseudo">:before</span> &#123;</span><br><span class="line">    <span class="attribute">content</span>: <span class="string">&quot;&quot;</span>;</span><br><span class="line">    <span class="attribute">position</span>: fixed;</span><br><span class="line">    <span class="attribute">left</span>: <span class="number">0</span>;</span><br><span class="line">    <span class="attribute">right</span>: <span class="number">0</span>;</span><br><span class="line">    <span class="attribute">top</span>: <span class="number">0</span>;</span><br><span class="line">    <span class="attribute">bottom</span>: <span class="number">0</span>;</span><br><span class="line">    <span class="attribute">z-index</span>: <span class="number">88888888</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.Cuteen_DarkSky</span> &#123;</span><br><span class="line">    <span class="attribute">background</span>: <span class="built_in">linear-gradient</span>(<span class="number">#feb8b0</span>, <span class="number">#fef9db</span>)</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.Cuteen_DarkSky</span><span class="selector-pseudo">:before</span> &#123;</span><br><span class="line">    <span class="attribute">transition</span>: <span class="number">2s</span> ease all;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">0</span>;</span><br><span class="line">    <span class="attribute">background</span>: <span class="built_in">linear-gradient</span>(<span class="number">#4c3f6d</span>, <span class="number">#6c62bb</span>, <span class="number">#93b1ed</span>)</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.DarkMode</span> <span class="selector-class">.Cuteen_DarkSky</span><span class="selector-pseudo">:before</span> &#123;</span><br><span class="line">    <span class="attribute">opacity</span>: <span class="number">1</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.Cuteen_DarkPlanet</span> &#123;</span><br><span class="line">    <span class="attribute">z-index</span>: <span class="number">99999999</span>;</span><br><span class="line">    <span class="attribute">position</span>: fixed;</span><br><span class="line">    <span class="attribute">left</span>: -<span class="number">50%</span>;</span><br><span class="line">    <span class="attribute">top</span>: -<span class="number">50%</span>;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">200%</span>;</span><br><span class="line">    <span class="attribute">height</span>: <span class="number">200%</span>;</span><br><span class="line">    -webkit-<span class="attribute">animation</span>: CuteenPlanetMove <span class="number">2s</span> <span class="built_in">cubic-bezier</span>(.<span class="number">7</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">1</span>);</span><br><span class="line">    <span class="attribute">animation</span>: CuteenPlanetMove <span class="number">2s</span> <span class="built_in">cubic-bezier</span>(.<span class="number">7</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">1</span>);</span><br><span class="line">    <span class="attribute">transform-origin</span>: center bottom</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">@-webkit-keyframes</span> CuteenPlanetMove &#123;</span><br><span class="line">    <span class="number">0%</span> &#123;</span><br><span class="line">        <span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">0</span>)</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="selector-tag">to</span> &#123;</span><br><span class="line">        <span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">360deg</span>)</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">@keyframes</span> CuteenPlanetMove &#123;</span><br><span class="line">    <span class="number">0%</span> &#123;</span><br><span class="line">        <span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">0</span>)</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="selector-tag">to</span> &#123;</span><br><span class="line">        <span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">360deg</span>)</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.Cuteen_DarkPlanet</span><span class="selector-pseudo">:after</span> &#123;</span><br><span class="line">    <span class="attribute">position</span>: absolute;</span><br><span class="line">    <span class="attribute">left</span>: <span class="number">35%</span>;</span><br><span class="line">    <span class="attribute">top</span>: <span class="number">40%</span>;</span><br><span class="line">    <span class="attribute">width</span>: <span class="number">9.375rem</span>;</span><br><span class="line">    <span class="attribute">height</span>: <span class="number">9.375rem</span>;</span><br><span class="line">    <span class="attribute">border-radius</span>: <span class="number">50%</span>;</span><br><span class="line">    <span class="attribute">content</span>: <span class="string">&quot;&quot;</span>;</span><br><span class="line">    <span class="attribute">background</span>: <span class="built_in">linear-gradient</span>(<span class="number">#fefefe</span>, <span class="number">#fffbe8</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="首页动态诗词"><a href="#首页动态诗词" class="headerlink" title="首页动态诗词"></a>首页动态诗词</h2><p>在volantis的配置文件里修改 subtitle 为”<code>&lt;div id=&quot;binft&quot;&gt;&lt;/div&gt;</code>“</p>
+<figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">############################### Cover ############################### &gt; start</span></span><br><span class="line">cover:</span><br><span class="line">  ...</span><br><span class="line">  subtitle: <span class="language-xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;binft&quot;</span>&gt;</span></span><span class="language-xml"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line">  ...</span><br></pre></td></tr></table></figure>
+
+<p>以<code>defer</code>方式引入以下<code>js</code>,注意把里面的诗词改成自己的</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> binft = <span class="keyword">function</span> (<span class="params">r</span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> isTransparent = <span class="literal">true</span>;</span><br><span class="line">    <span class="keyword">function</span> <span class="title function_">getRandomColor</span>(<span class="params"></span>) &#123;</span><br><span class="line">        <span class="keyword">if</span>(isTransparent)&#123;</span><br><span class="line">            isTransparent = <span class="literal">false</span>;</span><br><span class="line">            <span class="comment">//此处修改字体颜色,最后的 0 和 1 不要改</span></span><br><span class="line">            <span class="keyword">return</span> <span class="string">&quot;rgba(255,255,255,0)&quot;</span></span><br><span class="line">        &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">            isTransparent = <span class="literal">true</span>;</span><br><span class="line">            <span class="keyword">return</span> <span class="string">&quot;rgba(255,255,255,1)&quot;</span></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;  </span><br><span class="line">    <span class="keyword">function</span> <span class="title function_">n</span>(<span class="params">r</span>) &#123;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">var</span> n = <span class="variable language_">document</span>.<span class="title function_">createDocumentFragment</span>(), i = <span class="number">0</span>; r &gt; i; i++) &#123;</span><br><span class="line">            <span class="keyword">var</span> oneword = <span class="variable language_">document</span>.<span class="title function_">createElement</span>(<span class="string">&quot;span&quot;</span>);</span><br><span class="line">            oneword.<span class="property">textContent</span> = <span class="string">&quot;_&quot;</span>; <span class="comment">// 此处是末尾字符,如果想用光标样式可以改为&quot;|&quot;</span></span><br><span class="line">            oneword.<span class="property">style</span>.<span class="property">color</span> = <span class="title function_">getRandomColor</span>();</span><br><span class="line">            n.<span class="title function_">appendChild</span>(oneword);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> n</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">function</span> <span class="title function_">i</span>(<span class="params"></span>) &#123;</span><br><span class="line">        <span class="keyword">var</span> t = wordList[c.<span class="property">skillI</span>];</span><br><span class="line">        c.<span class="property">step</span> ? c.<span class="property">step</span>-- : (c.<span class="property">step</span> = refreshDelayTime, c.<span class="property">prefixP</span> &lt; l.<span class="property">length</span> ? (c.<span class="property">prefixP</span> &gt;= <span class="number">0</span> &amp;&amp; (c.<span class="property">text</span> += l[c.<span class="property">prefixP</span>]), c.<span class="property">prefixP</span>++) : <span class="string">&quot;forward&quot;</span> === c.<span class="property">direction</span> ? c.<span class="property">skillP</span> &lt; t.<span class="property">length</span> ? (c.<span class="property">text</span> += t[c.<span class="property">skillP</span>], c.<span class="property">skillP</span>++) : c.<span class="property">delay</span> ? c.<span class="property">delay</span>-- : (c.<span class="property">direction</span> = <span class="string">&quot;backward&quot;</span>, c.<span class="property">delay</span> = showTotalWordDelayTime) : c.<span class="property">skillP</span> &gt; <span class="number">0</span> ? (c.<span class="property">text</span> = c.<span class="property">text</span>.<span class="title function_">slice</span>(<span class="number">0</span>, -<span class="number">1</span>), c.<span class="property">skillP</span>--) : (c.<span class="property">skillI</span> = (c.<span class="property">skillI</span> + <span class="number">1</span>) % wordList.<span class="property">length</span>, c.<span class="property">direction</span> = <span class="string">&quot;forward&quot;</span>)), r.<span class="property">textContent</span> = c.<span class="property">text</span>, r.<span class="title function_">appendChild</span>(<span class="title function_">n</span>(c.<span class="property">prefixP</span> &lt; l.<span class="property">length</span> ? <span class="title class_">Math</span>.<span class="title function_">min</span>(maxLength, maxLength + c.<span class="property">prefixP</span>) : <span class="title class_">Math</span>.<span class="title function_">min</span>(maxLength, t.<span class="property">length</span> - c.<span class="property">skillP</span>))), <span class="built_in">setTimeout</span>(i, d)</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">var</span> l = <span class="string">&quot;&quot;</span>,</span><br><span class="line">    <span class="comment">//此处改成你自己的诗词</span></span><br><span class="line">    wordList = [ </span><br><span class="line">            <span class="string">&quot;有花堪折直需折,莫待无花空折枝.&quot;</span>,</span><br><span class="line">            <span class="string">&quot;闲居少邻并,草径入荒园.鸟宿池边树,僧敲月下门.&quot;</span>,</span><br><span class="line">            <span class="string">&quot;侯门一入深如海,从此萧郎是路人.&quot;</span>,</span><br><span class="line">            <span class="string">&quot;才见岭头云似盖,已惊岩下雪如尘.&quot;</span>,</span><br><span class="line">            <span class="string">&quot;人间万事消磨尽,只有清香似旧时.&quot;</span>,</span><br><span class="line">            <span class="string">&quot;日暮酒醒人已远,满天风雨下西楼.&quot;</span>,</span><br><span class="line">            <span class="string">&quot;落灯花,棋未收,叹新丰逆旅淹留.&quot;</span>,</span><br><span class="line">            <span class="string">&quot;软风吹过窗纱,心期便隔天涯.&quot;</span>,</span><br><span class="line">            <span class="string">&quot;迷惑失故路,薄暮无宿栖.&quot;</span>,</span><br><span class="line">            <span class="string">&quot;不见白头相携老,只许与君共天明.&quot;</span>,</span><br><span class="line">            <span class="string">&quot;晓迎秋露一枝新,不占园中最上春.&quot;</span>,</span><br><span class="line">            <span class="string">&quot;荷尽已无擎雨盖,菊残犹有傲霜枝.&quot;</span>,</span><br><span class="line">            <span class="string">&quot;春未绿,鬓先丝.人间别久不成悲.&quot;</span>,</span><br><span class="line">            <span class="string">&quot;江东子弟多才俊,卷土重来未可知.&quot;</span>,</span><br><span class="line">            <span class="string">&quot;莫听穿林打叶声,何妨吟啸且徐行.&quot;</span>,</span><br><span class="line">            <span class="string">&quot;在天愿作比翼鸟,在地愿为连理枝.&quot;</span>,</span><br><span class="line">        ].<span class="title function_">map</span>(<span class="keyword">function</span> (<span class="params">r</span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> r + <span class="string">&quot;&quot;</span></span><br><span class="line">    &#125;),</span><br><span class="line">    showTotalWordDelayTime = <span class="number">2</span>,</span><br><span class="line">    refreshDelayTime = <span class="number">1</span>,</span><br><span class="line">    maxLength = <span class="number">1</span>,</span><br><span class="line">    d = <span class="number">75</span>,</span><br><span class="line">    c = &#123;</span><br><span class="line">        <span class="attr">text</span>: <span class="string">&quot;&quot;</span>,</span><br><span class="line">        <span class="attr">prefixP</span>: -maxLength,</span><br><span class="line">        <span class="attr">skillI</span>: <span class="number">0</span>,</span><br><span class="line">        <span class="attr">skillP</span>: <span class="number">0</span>,</span><br><span class="line">        <span class="attr">direction</span>: <span class="string">&quot;forward&quot;</span>,</span><br><span class="line">        <span class="attr">delay</span>: showTotalWordDelayTime,</span><br><span class="line">        <span class="attr">step</span>: refreshDelayTime</span><br><span class="line">    &#125;;</span><br><span class="line">    <span class="title function_">i</span>()</span><br><span class="line">&#125;;</span><br><span class="line"><span class="title function_">binft</span>(<span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&#x27;binft&#x27;</span>));</span><br></pre></td></tr></table></figure>
+
+<h3 id=""><a href="#" class="headerlink" title=""></a></h3>
+  </div>
   
   
-    <div class='headimg-div'>
-      <a class='headimg-a' href="/undefined/nacos_2.2.1%E9%83%A8%E7%BD%B2.html">
-        <img itemprop="image" class='headimg' alt="nacos_2.2.1部署" src='https://static.dearxuan.com/background/pc/3.jpg'/>
-      </a>
+    
+    <div class='footer'>
+       <!-- 参考资料、相关资料等 -->
+      
+       <!-- 相关文章 -->
+      
+      <!-- 版权声明组件 -->
+      
+      <!-- 打赏组件 -->
+      
     </div>
   
   
     
-    <h2 class="article-title"  itemprop="name headline">
-      <a href="/undefined/nacos_2.2.1%E9%83%A8%E7%BD%B2.html"  itemprop="url">
-        nacos_2.2.1部署
-      </a>
-    </h2>
-  
-  <div class='md article-desc' itemprop="articleBody">
+
+
+  <div class='article-meta' id="bottom">
+    <div class='new-meta-box'>
+      
+        
+          <div class="new-meta-item date" itemprop="dateModified" datetime="2023-12-21T11:50:05+00:00">
+  <a class='notlink'>
+    <i class="fa-solid fa-edit fa-fw" aria-hidden="true"></i>
+    <p>更新于：2023年12月21日</p>
+  </a>
+</div>
+
+        
+      
+        
+          
+
+        
+      
+        
+          
+  <div class="new-meta-item share -mob-share-list">
+  <div class="-mob-share-list share-body">
+    
+      
+        <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://syou-kan.github.io/undefined/Volantis%E9%85%8D%E7%BD%AE2.html&title= - Hexo&summary="
+          
+          >
+          
+            <img src="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/logo/128/qq.png" class="lazyload" data-srcset="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/logo/128/qq.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://syou-kan.github.io/undefined/Volantis%E9%85%8D%E7%BD%AE2.html&title= - Hexo&summary="
+          
+          >
+          
+            <img src="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/logo/128/qzone.png" class="lazyload" data-srcset="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/logo/128/qzone.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="http://service.weibo.com/share/share.php?url=https://syou-kan.github.io/undefined/Volantis%E9%85%8D%E7%BD%AE2.html&title= - Hexo&summary="
+          
+          >
+          
+            <img src="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/logo/128/weibo.png" class="lazyload" data-srcset="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/logo/128/weibo.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+          
+        </a>
+      
+    
+      
     
       
     
   </div>
+</div>
+
+
+
+        
+      
+    </div>
+    <!-- Custom Files bottomMeta begin -->
+    
+    <!-- Custom Files bottomMeta end -->
+  </div>
+
+
   
-    <div class='meta-v3' line_style='solid'>
-      <div>
-        
-          
-          <a class='avatar' href='/'><img src='https://gcore.jsdelivr.net/gh/silentrookie1/Image/img/2023-10-02/volantis主题配置/assets/202310021415994.png'></a>
-          <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-            <meta itemprop="image" content="https://gcore.jsdelivr.net/gh/silentrookie1/Image/img/2023-10-02/volantis主题配置/assets/202310021415994.png">
-            <meta itemprop="name" content="OnSimple">
-            <meta itemprop="url" content="/">
-          </span>
-        
-        <time itemprop="dateCreated datePublished" datetime="2023-12-21T19:16:31+08:00">2023-12-21</time>
-        
-          <span class="dot"></span>
-          <a class="category-link" href="/categories/%E6%90%AD%E5%BB%BA/">搭建</a>
-          
-            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
-              <a href="/categories/%E6%90%AD%E5%BB%BA/" itemprop="url"><span itemprop="name">搭建</span></a>
-            </span>
-          
-        
-      </div>
+  
+
+  
+    <div class="prev-next">
+      
+        <a class='prev' href='/undefined/MySQL.html'>
+          <p class='title'><i class="fa-solid fa-chevron-left" aria-hidden="true"></i>MySQL面试</p>
+          <p class='content'>mysql八股文第一部分
+
+
+除distinct外,数据库有哪些去重⽅式除了使用 DISTINCT 关键字外，数据库中还有其他一些去重的方式，其中一些常见的包括：
+GROUP BY
+
+SELEC...</p>
+        </a>
+      
+      
+        <a class='next' href='/undefined/Volantis%E9%85%8D%E7%BD%AE%E6%97%A5%E8%AE%B01.html'>
+          <p class='title'>Volantis配置日记1<i class="fa-solid fa-chevron-right" aria-hidden="true"></i></p>
+          <p class='content'>欢迎来到我的博客，你将就此打开新世界的大门！
+我的教程相对于大佬来说比较啰嗦，属于是小白新手向，捧场的各位请多多包涵！
+1. 安装主题Volantis温馨提示：有关博客部署的教程不在此文章内，需...</p>
+        </a>
       
     </div>
   
-
-</div>
-
-          </div>
-        
-      
-    
-  </section>
+  <!-- 文章推荐 -->
   
-    
+  
+  <!-- Custom Files postEnd begin-->
+  
+  <!-- Custom Files postEnd end-->
+</article>
+
+
   
 
 
+  <article class="post white-box shadow floatable blur" id="comments">
+    <span hidden>
+      <meta itemprop="discussionUrl" content="/undefined/Volantis%E9%85%8D%E7%BD%AE2.html#comments">
+    </span>
+    <p ct><i class='fa-solid fa-comments'></i> 评论</p>
     
-  
+
+    <div id="layoutHelper-comments"></div>
+
+  </article>
+
+
+
+
+
+
 </div>
 <aside id='l_side' itemscope itemtype="http://schema.org/WPSideBar">
   
@@ -2814,144 +3000,31 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
     
       
-<section class="widget blogger desktop mobile ">
-  <div class='content'>
     
-      
-        <a class='avatar flat-box rectangle' href='/about/'>
-          <img no-lazy src='https://gcore.jsdelivr.net/gh/silentrookie1/Image/img/2023-10-02/volantis%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/assets/202310021415994.png'/>
-        </a>
-      
-    
-    
-      <div class='text'>
-        
-        
-        
-          <p><span id="jinrishici-sentence">Hexo</span></p>
-          <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
-        
-      </div>
-    
-    
-      <div class="social-wrapper">
-        
-          
-            <a href="/atom.xml"
-              class="social fa-solid fa-rss flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="mailto:me@xxx.com"
-              class="social fa-solid fa-envelope flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="https://github.com/volantis-x/"
-              class="social fab fa-github flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="/"
-              class="social fa-solid fa-headphones-alt flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-      </div>
-    
-  </div>
-</section>
-
-    
-  
-
-  
-    
-    
-      
-  
-  <section class="widget category desktop">
-    
-  <header>
-    
-      <a href='/blog/categories/'><i class="fa-solid fa-folder-open fa-fw" aria-hidden="true"></i><span class='name'>文章分类</span></a>
-    
-  </header>
-
-
-    <div class='content'>
-      <ul class="entry navigation">
-        
-          <li><a class="flat-box"
-            title="/categories/maven/" href="/categories/maven/"
-            active-action="action-categoriesmaven"
-            ><div class='name'>maven</div><div class='badge'>(1)</div></a></li>
-        
-          <li><a class="flat-box"
-            title="/categories/volantis/" href="/categories/volantis/"
-            active-action="action-categoriesvolantis"
-            ><div class='name'>volantis</div><div class='badge'>(1)</div></a></li>
-        
-          <li><a class="flat-box"
-            title="/categories/%E6%90%AD%E5%BB%BA/" href="/categories/%E6%90%AD%E5%BB%BA/"
-            active-action="action-categoriesE690ADE5BBBA"
-            ><div class='name'>搭建</div><div class='badge'>(1)</div></a></li>
-        
-          <li><a class="flat-box"
-            title="/categories/%E9%9D%A2%E8%AF%95/" href="/categories/%E9%9D%A2%E8%AF%95/"
-            active-action="action-categoriesE99DA2E8AF95"
-            ><div class='name'>面试</div><div class='badge'>(4)</div></a></li>
-        
-      </ul>
-    </div>
-  </section>
-
-
-    
-  
-
-  
-    
-    
-      
-  
-  <section class="widget tagcloud desktop mobile">
-    
-  <header>
-    
-      <a href='/blog/tags/'><i class="fa-solid fa-tags fa-fw" aria-hidden="true"></i><span class='name'>热门标签</span></a>
-    
-  </header>
-
-
-    <div class='content'>
-      <a href="/tags/MySQL/" style="font-size: 14px; color: #999">MySQL</a> <a href="/tags/docker/" style="font-size: 14px; color: #999">docker</a> <a href="/tags/java-%E9%AB%98%E7%BA%A7/" style="font-size: 19px; color: #777">java 高级</a> <a href="/tags/java%E5%88%9D%E7%BA%A7/" style="font-size: 14px; color: #999">java初级</a> <a href="/tags/maven%E5%BC%80%E5%8F%91/" style="font-size: 14px; color: #999">maven开发</a> <a href="/tags/maven%E6%8A%A5%E9%94%99/" style="font-size: 14px; color: #999">maven报错</a> <a href="/tags/nacos/" style="font-size: 14px; color: #999">nacos</a> <a href="/tags/volantis/" style="font-size: 14px; color: #999">volantis</a> <a href="/tags/%E5%85%AB%E8%82%A1%E6%96%87/" style="font-size: 19px; color: #777">八股文</a> <a href="/tags/%E6%90%AD%E5%BB%BA/" style="font-size: 14px; color: #999">搭建</a> <a href="/tags/%E6%96%87%E7%AB%A0%E9%80%89%E9%A1%B9/" style="font-size: 14px; color: #999">文章选项</a> <a href="/tags/%E6%97%A0%E6%B3%95%E8%A7%A3%E6%9E%90%E6%8F%92%E4%BB%B6/" style="font-size: 14px; color: #999">无法解析插件</a> <a href="/tags/%E9%9D%A2%E8%AF%95%E5%85%AB%E8%82%A1%E6%96%87/" style="font-size: 24px; color: #555">面试八股文</a> <a href="/tags/%E9%AD%94%E6%94%B9/" style="font-size: 14px; color: #999">魔改</a>
-    </div>
-  </section>
-
-
-    
-  
-
   
 
 
 <div class="widget-sticky">
+
+  
+  
+
+
+<section class="widget toc-wrapper desktop mobile" id="toc-div" >
+  
+  <header>
+    
+      <i class="fa-solid fa-list fa-fw" aria-hidden="true"></i><span class='name'>本文目录</span>
+    
+  </header>
+
+
+  <div class='content'>
+      <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%87%AA%E5%AE%9A%E4%B9%89%E8%B5%84%E6%BA%90%E6%B3%A8%E5%85%A5"><span class="toc-text">自定义资源注入</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BF%AE%E6%94%B9%E5%AF%BC%E8%88%AA%E6%A0%8F%EF%BC%8C%E4%BD%9C%E8%80%85logo"><span class="toc-text">修改导航栏，作者logo</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BF%AE%E6%94%B9%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95"><span class="toc-text">修改右键菜单</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A4%9A%E8%83%8C%E6%99%AF%E5%9B%BE%E4%B8%8E%E6%A8%AA%E7%AB%96%E5%B1%8F%E4%BC%98%E5%8C%96"><span class="toc-text">多背景图与横竖屏优化</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9A%97%E9%BB%91%E6%A8%A1%E5%BC%8F%E5%8A%A8%E7%94%BB"><span class="toc-text">暗黑模式动画</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%A6%96%E9%A1%B5%E5%8A%A8%E6%80%81%E8%AF%97%E8%AF%8D"><span class="toc-text">首页动态诗词</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link"><span class="toc-text"></span></a></li></ol>
+  </div>
+</section>
+
+  
 
 </div>
 
@@ -2959,6 +3032,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
   <!-- Custom Files side end -->
 </aside>
+
 
 
         </div>
@@ -4037,7 +4111,7 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
 </script>
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Hexo","url":"https://syou-kan.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"OnSimple","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://syou-kan.github.io/","sameAs":["https://github.com/volantis-x"],"description":"blog"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://syou-kan.github.io/","name":"Hexo"}},{"@type":"ListItem","position":2,"item":{"@id":"https://syou-kan.github.io/tags/docker/","name":"docker"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"Hexo","url":"https://syou-kan.github.io/","keywords":null,"description":"blog","author":{"@type":"Person","name":"OnSimple","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://syou-kan.github.io/","description":"blog"},"publisher":{"@type":"Organization","name":"Hexo","url":"https://syou-kan.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"https://syou-kan.github.io?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","description":"blog","inLanguage":["zh-CN","en","zh-HK","zh-TW","default"],"mainEntityOfPage":{"@type":"WebPage"},"author":{"@type":"Person","name":"OnSimple","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://syou-kan.github.io/"},"publisher":{"@type":"Organization","name":"Hexo","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"wordCount":0,"image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Hexo","url":"https://syou-kan.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"OnSimple","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://syou-kan.github.io/","sameAs":["https://github.com/volantis-x"],"description":"blog"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://syou-kan.github.io/","name":"Hexo"}},{"@type":"ListItem","position":3,"item":{"@id":"https://syou-kan.github.io/undefined/Volantis配置2.html"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"Hexo","url":"https://syou-kan.github.io/","keywords":null,"description":"blog","author":{"@type":"Person","name":"OnSimple","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://syou-kan.github.io/","description":"blog"},"publisher":{"@type":"Organization","name":"Hexo","url":"https://syou-kan.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"https://syou-kan.github.io?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","description":"blog","inLanguage":["zh-CN","en","zh-HK","zh-TW","default"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://syou-kan.github.io/undefined/Volantis%E9%85%8D%E7%BD%AE2.html"},"author":{"@type":"Person","name":"OnSimple","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://syou-kan.github.io/"},"publisher":{"@type":"Organization","name":"Hexo","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://syou-kan.github.io/undefined/Volantis%E9%85%8D%E7%BD%AE2.html","wordCount":0,"datePublished":"2023-12-21T11:50:05.646Z","dateModified":"2023-12-21T11:50:05.646Z","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
 
 
 
